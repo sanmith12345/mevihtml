@@ -1,0 +1,14 @@
+body
+{
+   background-color: rgb(212, 92, 92);
+   
+}
+.hi {
+   border: 5px solid;
+   border-radius: 50px;
+   border-width: 5px;
+   width: 200px;
+   height: 230px;
+   
+   
+}
