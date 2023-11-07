@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bar counter</title>
+    <link rel="stylesheet" href="coffee.css">
+</head>
+<body>
+   
+    <div class="image-container">
+       <div class="overlay-text" 
+       <div class="container">
+          <style>
+            body {
+              font-family: Arial, sans-serif;
+            }
+            .container {
+              text-align: center;
+              margin-top: 20px;
+            }
+          </style>
+        </head>
+        <body>
+          <center>
+          <center><h2>BAR COUNTER</h2></center>
+        
+            <label>
+              <input type="radio" name="drink" value="tuborg"> tuborg
+            </label>
+           
+            <label>
+              <input type="radio" name="drink" value="kingfisher"> kingfisher
+            </label>        
+          <label>
+         <input type="radio" name="drink" value="blackandwhite"> blackandwhite
+        </label>
+         <label>
+       <input type="radio" name="drink" value="imperialblue"> imperialblue
+      </label>
+      <br>
+            <button onclick="countDrink()">Add Drink</button>
+            <p>tuborg Count: <span id="tuborgCount">0</span></p>
+            <p>kingfisher Count: <span id="kingfisherCount">0</span></p>
+            <P>blackandwhite count:<span id="blackandwhitecount">0</span></P>
+            <P>imperialblue count:<span id="imperialbluecount">0</span></P>
+            <p>totalPrice : <span id="totalPrice">0</span></p>
+          </div>
+          </div>
+        <div>
+         <script>
+            let tuborgCount = 0;
+            let kingfisherCount = 0;
+            let blackandwhiteCount = 0;
+            let imperialblueCount = 0;
+
+            function countDrink() {
+              const selectedDrink = document.querySelector('input[name="drink"]:checked');
+              if (selectedDrink) 
+              {
+                const drinkType = selectedDrink.value;
+                if (drinkType === 'tuborg') {
+                  tuborgCount++;
+                  document.getElementById('tuborgCount').textContent = tuborgCount;
+                }  else if (drinkType === 'kingfisher') {
+                  kingfisherCount++;
+                  document.getElementById('kingfisherCount').textContent = kingfisherCount;
+                }  if (drinkType === 'blackandwhite') {
+                  blackandwhiteCount++;
+                  document.getElementById('blackandwhiteCount').textContent = blackandwhiteCount;
+                } else if (drinkType === 'imperialblue') {
+                  imperialblueCount++;
+                  document.getElementById('imperialblueCount').textContent = imperialblueCount;
+                }
+                let totalPrice = (tuborgCount *200 ) + (kingfisherCount * 250) + (blackandwhiteCount * 300) + (imperialCount * 400);
+            document.getElementById('totalPrice').textContent = totalPrice;
+            
+        }
+        
+            }
+            
+        
+
+        
+        </script>
+          </center>
+        </body>
+        </html>
+  
+  

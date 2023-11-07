@@ -1,11 +1,31 @@
 body{
-    background-color: rgb(59, 177, 138);
+    background-color: rgb(73, 154, 127);
     
       
 }
 div{
-    color: rgba(179, 255, 0, 0.684));
+    color: rgba(129, 160, 57, 0.684));
 }
 button{
     padding-bottom: 40px;
+}
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.education{
+     font-family: 'Times New Roman', Times, serif;
+     font: 600;
+}
+.hob{
+    font-family: 'Times New Roman', Times, serif;
 }

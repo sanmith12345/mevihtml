@@ -1,6 +1,7 @@
 body
 {
-   background-color: rgb(212, 92, 92);
+   background-color: rgb(100, 144, 137);
+   
    
 }
 .hi {
@@ -8,7 +9,11 @@ body
    border-radius: 50px;
    border-width: 5px;
    width: 200px;
-   height: 230px;
-   
-   
+   height: 150px;  
+}
+button{
+    border-radius: 30px;
+    background: linear-gradient(45deg, rgb(202, 31, 99),rgb(30, 131, 165));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }

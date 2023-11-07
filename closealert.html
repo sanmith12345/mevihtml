@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alert with jQuery</title>
+   
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gZe41WG__qQoNF_ZQhX3niv9Dxkraw_CSw&usqp=CAU);">
+    <center>
+<center>
+    <h1 style="color: rgb(69, 208, 48);padding-top: 120px;"><h1>500RS Phonepe Madu</h1>
+</center>
+
+<button id="alertButton">Click Me</button>
+
+<script>
+
+$(document).ready(function() {
+  
+  $("#alertButton").click(function() {
+   
+    alert("ssssssssssssssssssssssshhhhhhhhhhhhhhhhhhhhh");
+  });
+});
+
+$(document).ready(function(){
+    $("button").on({
+        mouseenter:function(){
+            $(this).css("background-color","yellow")
+        },
+
+        mouseleave:function(){
+            $(this).css("background-color","red")
+        },
+        click:function(){
+            $(this).css("background-color","green")
+        },
+    })
+})
+</script>
+</center>
+</body>
+</html>

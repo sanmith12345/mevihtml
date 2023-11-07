@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script>
+        $(document).ready(function(){
+            $("p").on({
+               mouseenter:function(){
+                $(this).css("background-color","yellow");
+               },
+               mouseleave:function(){
+                $(this).css("background-color","green");
+            },
+            click:function(){
+                $(this).css("background-color","red");
+            }
+        })
+    })
+    </script>
+</head>
+<body>
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quos quas ex aut magnam voluptatum neque incidunt vero? Ullam ex sint facilis nemo dolorem sunt quo, quis libero alias reprehenderit.</p>
+
+</body>
+</html>
